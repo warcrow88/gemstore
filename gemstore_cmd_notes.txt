@@ -311,4 +311,1102 @@ C:\Users\kelle\Documents\Coding Temple Course 2018\week_7_folder\gemstore>npm st
 
 Would you like to run the app on another port instead? Yes
 Starting the development server...
+Compiled with warnings.
 
+./src/components/navbar/navbar.js
+  Line 10:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 18:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 21:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 24:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 28:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 29:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 31:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 35:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+Compiling...
+Failed to compile.
+
+./src/App.js
+Module not found: Can't resolve 'react-router-route' in 'C:\Users\kelle\Documents\Coding Temple Course 2018\week_7_folder\gemstore\src'
+Compiling...
+Failed to compile.
+
+./src/App.js
+Module not found: Can't resolve 'react-router-route' in 'C:\Users\kelle\Documents\Coding Temple Course 2018\week_7_folder\gemstore\src'
+Compiling...
+Compiled with warnings.
+
+./src/components/navbar/navbar.js
+  Line 10:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 18:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 21:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 24:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 28:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 29:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 31:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 35:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+
+./src/App.js
+  Line 5:  'Switch' is defined but never used    no-unused-vars
+  Line 5:  'Route' is defined but never used     no-unused-vars
+  Line 6:   'Home' is defined but never used      no-unused-vars
+  Line 7:   'Checkout' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+Compiling...
+Failed to compile.
+
+./src/App.js
+  Line 32:  Parsing error: Unexpected token, expected "jsxTagEnd"
+
+  30 |        <Navbar />
+  31 |        <Switch>
+> 32 |         <Route exact path='/' render={() => <Home /}></Route>
+     |                                                    ^
+  33 |         <Route exact path='/index' render={() => <Home /}></Route>
+  34 |         <Route exact path='/checkout' render={() => <Checkout /}></Route>
+  35 |        </Switch>
+Compiling...
+Compiled with warnings.
+
+./src/components/navbar/navbar.js
+  Line 10:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 18:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 21:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 24:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 28:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 29:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 31:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 35:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Terminate batch job (Y/N)? y
+
+C:\Users\kelle\Documents\Coding Temple Course 2018\week_7_folder\gemstore>git add .
+
+C:\Users\kelle\Documents\Coding Temple Course 2018\week_7_folder\gemstore>git commit -m "switch and routes set up TODO:v add links in navbar"
+[views a126f47] switch and routes set up TODO:v add links in navbar
+ 4 files changed, 324 insertions(+), 3 deletions(-)
+ create mode 100644 gemstore_cmd_notes.txt
+
+C:\Users\kelle\Documents\Coding Temple Course 2018\week_7_folder\gemstore>npm start
+
+> gemstore@0.1.0 start C:\Users\kelle\Documents\Coding Temple Course 2018\week_7_folder\gemstore
+> react-scripts start
+? Something is already running on port 3000.
+
+Would you like to run the app on another port instead? Yes
+Starting the development server...
+Compiled with warnings.
+
+./src/components/navbar/navbar.js
+  Line 10:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 18:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 21:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 24:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 28:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 29:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 31:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 35:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+Compiling...
+Compiled with warnings.
+
+./src/components/navbar/navbar.js
+  Line 3:   'NavLink' is defined but never used                                                                no-unused-vars
+  Line 11:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 19:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 22:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 25:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 29:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 30:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 32:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 36:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+Compiling...
+Failed to compile.
+
+./src/components/navbar/navbar.js
+  Line 11:  'Navlink' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Compiled with warnings.
+
+./src/components/navbar/navbar.js
+  Line 19:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 22:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 25:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 29:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 30:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 32:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 36:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+Compiling...
+Compiled with warnings.
+
+./src/components/navbar/navbar.js
+  Line 22:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 25:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 29:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 30:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 32:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 36:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+Compiling...
+Compiled with warnings.
+
+./src/components/navbar/navbar.js
+  Line 25:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 29:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 30:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 32:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 36:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+Compiling...
+Compiled with warnings.
+
+./src/components/navbar/navbar.js
+  Line 25:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 29:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 30:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 32:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 36:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+Compiling...
+Compiled with warnings.
+
+./src/components/navbar/navbar.js
+  Line 25:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 29:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 30:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 32:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 36:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+Compiling...
+Compiled with warnings.
+
+./src/components/navbar/navbar.js
+  Line 26:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+Compiling...
+Compiled successfully!
+
+You can now view gemstore in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://10.1.10.20:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+Terminate batch job (Y/N)? y
+
+C:\Users\kelle\Documents\Coding Temple Course 2018\week_7_folder\gemstore>git add .
+
+C:\Users\kelle\Documents\Coding Temple Course 2018\week_7_folder\gemstore>git commit -m "navlinks working properly TODO render proper components in views."
+[views df1c375] navlinks working properly TODO render proper components in views.
+ 1 file changed, 6 insertions(+), 15 deletions(-)
+
+C:\Users\kelle\Documents\Coding Temple Course 2018\week_7_folder\gemstore>npm start
+
+> gemstore@0.1.0 start C:\Users\kelle\Documents\Coding Temple Course 2018\week_7_folder\gemstore
+> react-scripts start
+? Something is already running on port 3000.
+
+Would you like to run the app on another port instead? Yes
+Starting the development server...
+Compiled successfully!
+
+You can now view gemstore in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://10.1.10.20:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Compiled successfully!
+
+You can now view gemstore in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://10.1.10.20:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Compiled successfully!
+
+You can now view gemstore in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://10.1.10.20:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Compiled successfully!
+
+You can now view gemstore in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://10.1.10.20:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Compiled successfully!
+
+You can now view gemstore in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://10.1.10.20:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Compiled successfully!
+
+You can now view gemstore in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://10.1.10.20:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Compiled successfully!
+
+You can now view gemstore in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://10.1.10.20:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Compiled successfully!
+
+You can now view gemstore in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://10.1.10.20:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Compiled successfully!
+
+You can now view gemstore in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://10.1.10.20:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Compiled successfully!
+
+You can now view gemstore in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://10.1.10.20:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Compiled successfully!
+
+You can now view gemstore in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://10.1.10.20:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Compiled successfully!
+
+You can now view gemstore in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://10.1.10.20:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Failed to compile.
+
+./src/components/productItem/productItem.js
+  Line 17:  Parsing error: Unexpected token
+
+  15 |           <div className="card-subtitle">$4.99</div>
+  16 |           <div className="card-text">Description text here.</div>
+> 17 |           <button className="btn btn-primary" onClick={console.log('Add')}>Add to Cart<</button>
+     |                                                                                        ^
+  18 |           </div> {/* ends card */}
+  19 |         </div> {/* ends card */}
+  20 |       </div> // ends col-4
+Compiling...
+Failed to compile.
+
+./src/components/views/home/home.js
+  Line 11:  'ProductItem' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+./src/components/views/home/home.js
+  Line 11:  'ProductItem' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+./src/components/views/home/home.js
+  Line 12:  'ProductItem' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+./src/components/productItem/productItem.js
+  Line 17:  Parsing error: Unexpected token
+
+  15 |           <div className="card-subtitle">$4.99</div>
+  16 |           <div className="card-text">Description text here.</div>
+> 17 |           <button className="btn btn-primary" onClick={console.log('Add')}>Add to Cart<</button>
+     |                                                                                        ^
+  18 |           </div> {/* ends card */}
+  19 |         </div> {/* ends card */}
+  20 |       </div> // ends col-4
+Compiling...
+Failed to compile.
+
+./src/components/productItem/productItem.js
+  Line 19:  Parsing error: Unexpected token, expected ","
+
+  17 |           <button className="btn btn-primary" onClick={console.log('Add')}>Add to Cart</button>
+  18 |           </div> {/* ends card */}
+> 19 |         </div> {/* ends card */}
+     |                ^
+  20 |       </div> // ends col-4
+  21 |     );
+  22 |   }
+Compiling...
+Compiled successfully!
+
+You can now view gemstore in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://10.1.10.20:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Compiled successfully!
+
+You can now view gemstore in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://10.1.10.20:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Compiled successfully!
+
+You can now view gemstore in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://10.1.10.20:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Compiled successfully!
+
+You can now view gemstore in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://10.1.10.20:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Failed to compile.
+
+./src/components/productItem/productItem.css (./node_modules/css-loader??ref--7-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/components/productItem/productItem.css)
+Syntax error: Missed semicolon (11:14)
+
+   9 | .card-title {
+  10 |   font-weight: bold;
+> 11 |   font-size: 125%
+     |              ^
+  12 |   padding: 5px;
+  13 | }
+Compiling...
+Failed to compile.
+
+./src/components/productItem/productItem.css (./node_modules/css-loader??ref--7-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/components/productItem/productItem.css)
+Syntax error: Missed semicolon (11:14)
+
+   9 | .card-title {
+  10 |   font-weight: bold;
+> 11 |   font-size: 125%
+     |              ^
+  12 |   padding: 5px;
+  13 | }
+Compiling...
+Failed to compile.
+
+./src/components/productItem/productItem.css (./node_modules/css-loader??ref--7-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/components/productItem/productItem.css)
+Syntax error: Missed semicolon (11:14)
+
+   9 | .card-title {
+  10 |   font-weight: bold;
+> 11 |   font-size: 125%
+     |              ^
+  12 |   padding: 5px;
+  13 | }
+Compiling...
+Failed to compile.
+
+./src/components/productItem/productItem.css (./node_modules/css-loader??ref--7-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/components/productItem/productItem.css)
+Syntax error: Missed semicolon (11:14)
+
+   9 | .card-title {
+  10 |   font-weight: bold;
+> 11 |   font-size: 125%
+     |              ^
+  12 |   padding: 5px;
+  13 | }
+Compiling...
+Failed to compile.
+
+./src/components/productItem/productItem.css (./node_modules/css-loader??ref--7-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/components/productItem/productItem.css)
+Syntax error: Missed semicolon (11:14)
+
+   9 | .card-title {
+  10 |   font-weight: bold;
+> 11 |   font-size: 125%
+     |              ^
+  12 |   padding: 5px;
+  13 | }
+Compiling...
+Compiled successfully!
+
+You can now view gemstore in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://10.1.10.20:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Compiled successfully!
+
+You can now view gemstore in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://10.1.10.20:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Compiled successfully!
+
+You can now view gemstore in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://10.1.10.20:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Compiled successfully!
+
+You can now view gemstore in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://10.1.10.20:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Compiled successfully!
+
+You can now view gemstore in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://10.1.10.20:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Compiled successfully!
+
+You can now view gemstore in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://10.1.10.20:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Compiled successfully!
+
+You can now view gemstore in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://10.1.10.20:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Failed to compile.
+
+./src/components/productItem/productItem.js
+  Line 17:  Parsing error: this is a reserved word
+
+  15 |           <div className="card-subtitle">${this.props.title}</div>
+  16 |           <div className="card-text">{this.props.description}</div>
+> 17 |           <button className="btn btn-primary" onClick={console.log({this.props.id})}>Add to Cart</button>
+     |                                                                     ^
+  18 |         </div> {/* ends card */}
+  19 |       </div> // ends col-4
+  20 |     );
+Compiling...
+Failed to compile.
+
+./src/components/productItem/productItem.js
+  Line 17:  Parsing error: Unexpected token, expected ","
+
+  15 |           <div className="card-subtitle">${this.props.title}</div>
+  16 |           <div className="card-text">{this.props.description}</div>
+> 17 |           <button className="btn btn-primary" onClick={console.log(this.props.id})>Add to Cart</button>
+     |                                                                                 ^
+  18 |         </div> {/* ends card */}
+  19 |       </div> // ends col-4
+  20 |     );
+Compiling...
+Compiled successfully!
+
+You can now view gemstore in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://10.1.10.20:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Compiled successfully!
+
+You can now view gemstore in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://10.1.10.20:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Compiled successfully!
+
+You can now view gemstore in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://10.1.10.20:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Compiled successfully!
+
+You can now view gemstore in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://10.1.10.20:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Compiled successfully!
+
+You can now view gemstore in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://10.1.10.20:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Compiled successfully!
+
+You can now view gemstore in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://10.1.10.20:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Compiled successfully!
+
+You can now view gemstore in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://10.1.10.20:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Compiled successfully!
+
+You can now view gemstore in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://10.1.10.20:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Failed to compile.
+
+./src/components/productList/productList.js
+  Line 13:  Parsing error: Unexpected token, expected "}"
+
+  11 |         <div className="row">
+  12 |           {
+> 13 |             console.log(this.props.products);
+     |                                             ^
+  14 |           }
+  15 |         </div> {/* ends row */}
+  16 |       </div>
+Compiling...
+Compiled with warnings.
+
+./src/components/productList/productList.js
+  Line 3:  'ProductItem' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+Compiling...
+Compiled with warnings.
+
+./src/components/productList/productList.js
+  Line 3:  'ProductItem' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+Compiling...
+Compiled with warnings.
+
+./src/components/productList/productList.js
+  Line 3:  'ProductItem' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+Compiling...
+Compiled with warnings.
+
+./src/components/productList/productList.js
+  Line 3:  'ProductItem' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+Compiling...
+Compiled with warnings.
+
+./src/components/productList/productList.js
+  Line 3:  'ProductItem' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+Compiling...
+Compiled with warnings.
+
+./src/components/productList/productList.js
+  Line 3:  'ProductItem' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+Compiling...
+Failed to compile.
+
+./src/components/productList/productList.js
+TypeError: C:\Users\kelle\Documents\Coding Temple Course 2018\week_7_folder\gemstore\src\components\productList\productList.js: Duplicate declaration "ProductList"
+  4 |
+  5 |
+> 6 | class ProductList extends Component {
+    |       ^
+  7 |
+  8 |   render() {
+  9 |     return (
+Compiling...
+Compiled with warnings.
+
+./src/components/productList/productList.js
+  Line 3:  'ProductItem' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+Compiling...
+Compiled with warnings.
+
+./src/components/productList/productList.js
+  Line 3:  'ProductItem' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+Compiling...
+Compiled with warnings.
+
+./src/components/productList/productList.js
+  Line 3:  'ProductItem' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+Compiling...
+Compiled with warnings.
+
+./src/components/productList/productList.js
+  Line 3:  'ProductItem' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+Compiling...
+Compiled successfully!
+
+You can now view gemstore in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://10.1.10.20:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Compiled successfully!
+
+You can now view gemstore in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://10.1.10.20:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Compiled successfully!
+
+You can now view gemstore in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://10.1.10.20:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Compiled successfully!
+
+You can now view gemstore in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://10.1.10.20:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Compiled successfully!
+
+You can now view gemstore in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://10.1.10.20:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Compiled successfully!
+
+You can now view gemstore in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://10.1.10.20:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Compiled successfully!
+
+You can now view gemstore in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://10.1.10.20:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Compiled successfully!
+
+You can now view gemstore in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://10.1.10.20:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+Terminate batch job (Y/N)? y
+
+C:\Users\kelle\Documents\Coding Temple Course 2018\week_7_folder\gemstore>git add .
+
+C:\Users\kelle\Documents\Coding Temple Course 2018\week_7_folder\gemstore>git commit -m "rendering products TODO: functionaility for add to cart button"
+[views 4d9cd11] rendering products TODO: functionaility for add to cart button
+ 8 files changed, 96 insertions(+), 6 deletions(-)
+ create mode 100644 src/components/productItem/productItem.css
+ create mode 100644 src/components/productItem/productItem.js
+ create mode 100644 src/components/productList/productList.css
+ create mode 100644 src/components/productList/productList.js
+
+C:\Users\kelle\Documents\Coding Temple Course 2018\week_7_folder\gemstore>git checkout master
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+C:\Users\kelle\Documents\Coding Temple Course 2018\week_7_folder\gemstore>git merge views
+error: cannot stat 'src/components/productItem': Permission denied
+error: cannot stat 'src/components/productItem': Permission denied
+error: cannot stat 'src/components/productList': Permission denied
+error: cannot stat 'src/components/productList': Permission denied
+Updating f836de8..4d9cd11
+
+C:\Users\kelle\Documents\Coding Temple Course 2018\week_7_folder\gemstore>get merge views
+'get' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\kelle\Documents\Coding Temple Course 2018\week_7_folder\gemstore>git merge views
+Updating f836de8..4d9cd11
+Fast-forward
+ gemstore_cmd_notes.txt                     | 314 +++++++++++++++++++++++++++++
+ src/App.js                                 |  20 +-
+ src/components/navbar/navbar.js            |  23 +--
+ src/components/productItem/productItem.css |  29 +++
+ src/components/productItem/productItem.js  |  24 +++
+ src/components/productList/productList.css |   0
+ src/components/productList/productList.js  |  23 +++
+ src/components/views/checkout/checkout.js  |   2 +-
+ src/components/views/home/home.css         |   3 +
+ src/components/views/home/home.js          |   6 +-
+ 10 files changed, 423 insertions(+), 21 deletions(-)
+ create mode 100644 gemstore_cmd_notes.txt
+ create mode 100644 src/components/productItem/productItem.css
+ create mode 100644 src/components/productItem/productItem.js
+ create mode 100644 src/components/productList/productList.css
+ create mode 100644 src/components/productList/productList.js
+
+C:\Users\kelle\Documents\Coding Temple Course 2018\week_7_folder\gemstore>npm start
+
+> gemstore@0.1.0 start C:\Users\kelle\Documents\Coding Temple Course 2018\week_7_folder\gemstore
+> react-scripts start
+? Something is already running on port 3000.
+
+Would you like to run the app on another port instead? Yes
+Starting the development server...
+Compiled successfully!
+
+You can now view gemstore in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://10.1.10.20:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Compiled successfully!
+
+You can now view gemstore in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://10.1.10.20:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Failed to compile.
+
+./src/App.js
+  Line 49:  Parsing error: Unexpected token, expected ";"
+
+  47 |     }
+  48 |     // set state to current cart
+> 49 |     this setState({
+     |          ^
+  50 |       cart: items
+  51 |     });
+  52 |   }
+Compiling...
+Failed to compile.
+
+./src/App.js
+  Line 41:  'prodcuts' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Compiled successfully!
+
+You can now view gemstore in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://10.1.10.20:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Compiled successfully!
+
+You can now view gemstore in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://10.1.10.20:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Compiled successfully!
+
+You can now view gemstore in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://10.1.10.20:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Compiled successfully!
+
+You can now view gemstore in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://10.1.10.20:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Compiled successfully!
+
+You can now view gemstore in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://10.1.10.20:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Compiled successfully!
+
+You can now view gemstore in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://10.1.10.20:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Compiled successfully!
+
+You can now view gemstore in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://10.1.10.20:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Compiled successfully!
+
+You can now view gemstore in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://10.1.10.20:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Compiled successfully!
+
+You can now view gemstore in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://10.1.10.20:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Failed to compile.
+
+./src/App.js
+  Line 32:  'thi' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Compiled successfully!
+
+You can now view gemstore in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://10.1.10.20:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Compiled successfully!
+
+You can now view gemstore in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://10.1.10.20:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Compiled successfully!
+
+You can now view gemstore in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://10.1.10.20:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+Terminate batch job (Y/N)? y
+
+C:\Users\kelle\Documents\Coding Temple Course 2018\week_7_folder\gemstore>git add .
+
+C:\Users\kelle\Documents\Coding Temple Course 2018\week_7_folder\gemstore>git commit -m "Adding items to cart working, total calculating properly TODO: checkout view"
+[master 40f8674] Adding items to cart working, total calculating properly TODO: checkout view
+ 4 files changed, 32 insertions(+), 8 deletions(-)
+
+C:\Users\kelle\Documents\Coding Temple Course 2018\week_7_folder\gemstore>
