@@ -1,0 +1,314 @@
+Microsoft Windows [Version 10.0.17134.285]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Users\kelle>cd C:\Users\kelle\Documents\Coding Temple Course 2018\week_7_folder
+
+C:\Users\kelle\Documents\Coding Temple Course 2018\week_7_folder>create-react-app gemstore
+
+Creating a new React app in C:\Users\kelle\Documents\Coding Temple Course 2018\week_7_folder\gemstore.
+
+Installing packages. This might take a couple of minutes.
+Installing react, react-dom, and react-scripts...
+
++ react-dom@16.5.2
++ react@16.5.2
++ react-scripts@2.0.3
+added 1728 packages from 664 contributors and audited 31900 packages in 76.33s
+found 0 vulnerabilities
+
+
+Initialized a git repository.
+
+Success! Created gemstore at C:\Users\kelle\Documents\Coding Temple Course 2018\week_7_folder\gemstore
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd gemstore
+  npm start
+
+Happy hacking!
+
+C:\Users\kelle\Documents\Coding Temple Course 2018\week_7_folder>cd gemstore
+
+C:\Users\kelle\Documents\Coding Temple Course 2018\week_7_folder\gemstore>atom .
+
+C:\Users\kelle\Documents\Coding Temple Course 2018\week_7_folder\gemstore>npm install react-router-dom
+npm WARN ajv-keywords@3.2.0 requires a peer of ajv@^6.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.4 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.4: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ react-router-dom@4.3.1
+added 10 packages from 5 contributors and audited 31951 packages in 18.146s
+found 0 vulnerabilities
+
+
+C:\Users\kelle\Documents\Coding Temple Course 2018\week_7_folder\gemstore>add .
+'add' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\kelle\Documents\Coding Temple Course 2018\week_7_folder\gemstore>git add .
+warning: LF will be replaced by CRLF in src/App.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/index.js.
+The file will have its original line endings in your working directory.
+
+C:\Users\kelle\Documents\Coding Temple Course 2018\week_7_folder\gemstore>git commit -m "Included app components, set up product file"
+[master 0df4a86] Included app components, set up product file
+ 4 files changed, 106 insertions(+), 2 deletions(-)
+ create mode 100644 src/static/data/products.js
+ create mode 100644 src/static/img/gem-01.gif
+
+C:\Users\kelle\Documents\Coding Temple Course 2018\week_7_folder\gemstore>git checkout -b navbar
+Switched to a new branch 'navbar'
+
+C:\Users\kelle\Documents\Coding Temple Course 2018\week_7_folder\gemstore>npm start
+
+> gemstore@0.1.0 start C:\Users\kelle\Documents\Coding Temple Course 2018\week_7_folder\gemstore
+> react-scripts start
+? Something is already running on port 3000.
+
+Would you like to run the app on another port instead? Yes
+Starting the development server...
+Compiled successfully!
+
+You can now view gemstore in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://10.1.10.20:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Compiled with warnings.
+
+./src/components/navbar/navbar.js
+  Line 10:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 18:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 21:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 24:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 28:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 29:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 31:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 35:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+
+./src/App.js
+  Line 4:  'navbar' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+Compiling...
+Compiled with warnings.
+
+./src/components/navbar/navbar.js
+  Line 10:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 18:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 21:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 24:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 28:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 29:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 31:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 35:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+
+./src/App.js
+  Line 4:  'Navbar' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+Compiling...
+Compiled with warnings.
+
+./src/components/navbar/navbar.js
+  Line 10:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 18:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 21:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 24:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 28:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 29:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 31:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 35:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+
+./src/App.js
+  Line 4:  'Navbar' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+Compiling...
+Compiled with warnings.
+
+./src/components/navbar/navbar.js
+  Line 10:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 18:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 21:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 24:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 28:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 29:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 31:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 35:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Terminate batch job (Y/N)? y
+
+C:\Users\kelle\Documents\Coding Temple Course 2018\week_7_folder\gemstore>git add .
+warning: LF will be replaced by CRLF in src/App.js.
+The file will have its original line endings in your working directory.
+
+C:\Users\kelle\Documents\Coding Temple Course 2018\week_7_folder\gemstore>git commit -m "navbar added TODO: create proper links"
+[navbar 6195369] navbar added TODO: create proper links
+ 3 files changed, 53 insertions(+), 1 deletion(-)
+ create mode 100644 src/components/navbar/navbar.css
+ create mode 100644 src/components/navbar/navbar.js
+
+C:\Users\kelle\Documents\Coding Temple Course 2018\week_7_folder\gemstore>git checkout master
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+C:\Users\kelle\Documents\Coding Temple Course 2018\week_7_folder\gemstore>git merge navbar
+error: cannot stat 'src/components/navbar': Permission denied
+error: cannot stat 'src/components/navbar': Permission denied
+Updating 0df4a86..6195369
+
+C:\Users\kelle\Documents\Coding Temple Course 2018\week_7_folder\gemstore>
+
+C:\Users\kelle\Documents\Coding Temple Course 2018\week_7_folder\gemstore>
+
+C:\Users\kelle\Documents\Coding Temple Course 2018\week_7_folder\gemstore>git checkout navbar
+error: cannot stat 'src/components/navbar': Permission denied
+error: cannot stat 'src/components/navbar': Permission denied
+
+C:\Users\kelle\Documents\Coding Temple Course 2018\week_7_folder\gemstore>git checkout navbar
+error: cannot stat 'src/components/navbar': Permission denied
+error: cannot stat 'src/components/navbar': Permission denied
+
+C:\Users\kelle\Documents\Coding Temple Course 2018\week_7_folder\gemstore>git checkout navbar
+error: cannot stat 'src/components/navbar': Permission denied
+error: cannot stat 'src/components/navbar': Permission denied
+
+C:\Users\kelle\Documents\Coding Temple Course 2018\week_7_folder\gemstore>git checkout master
+Already on 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+C:\Users\kelle\Documents\Coding Temple Course 2018\week_7_folder\gemstore>git merge navbar
+error: cannot stat 'src/components/navbar': Permission denied
+error: cannot stat 'src/components/navbar': Permission denied
+Updating 0df4a86..6195369
+
+C:\Users\kelle\Documents\Coding Temple Course 2018\week_7_folder\gemstore>npm start
+
+> gemstore@0.1.0 start C:\Users\kelle\Documents\Coding Temple Course 2018\week_7_folder\gemstore
+> react-scripts start
+? Something is already running on port 3000.
+
+Would you like to run the app on another port instead? Yes
+Starting the development server...
+Compiled successfully!
+
+You can now view gemstore in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://10.1.10.20:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Failed to compile.
+
+./src/App.js
+Module not found: Can't resolve '.components/navbar/navbar.js' in 'C:\Users\kelle\Documents\Coding Temple Course 2018\week_7_folder\gemstore\src'
+Compiling...
+Failed to compile.
+
+./src/App.js
+Module not found: Can't resolve '.components/navbar/navbar.js' in 'C:\Users\kelle\Documents\Coding Temple Course 2018\week_7_folder\gemstore\src'
+Compiling...
+Compiled with warnings.
+
+./src/components/navbar/navbar.js
+  Line 10:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 18:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 21:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 24:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 28:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 29:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 31:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 35:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+
+./src/App.js
+  Line 4:  'Navbar' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+Compiling...
+Compiled with warnings.
+
+./src/components/navbar/navbar.js
+  Line 10:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 18:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 21:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 24:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 28:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 29:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 31:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 35:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+Compiling...
+Compiled with warnings.
+
+./src/components/navbar/navbar.js
+  Line 10:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 18:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 21:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 24:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 28:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 29:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 31:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+  Line 35:  The href attribute requires a valid address. Provide a valid, navigable address as the href value  jsx-a11y/anchor-is-valid
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Terminate batch job (Y/N)? y
+
+C:\Users\kelle\Documents\Coding Temple Course 2018\week_7_folder\gemstore>git add .
+
+C:\Users\kelle\Documents\Coding Temple Course 2018\week_7_folder\gemstore>git commit -m "View structure created TODO: view functionaility
+[master f836de8] View structure created TODO: view functionaility
+ 7 files changed, 87 insertions(+), 1 deletion(-)
+ create mode 100644 src/components/navbar/navbar.css
+ create mode 100644 src/components/navbar/navbar.js
+ create mode 100644 src/components/views/checkout/checkout.css
+ create mode 100644 src/components/views/checkout/checkout.js
+ create mode 100644 src/components/views/home/home.css
+ create mode 100644 src/components/views/home/home.js
+
+C:\Users\kelle\Documents\Coding Temple Course 2018\week_7_folder\gemstore>git checkout -b "views"
+Switched to a new branch 'views'
+
+C:\Users\kelle\Documents\Coding Temple Course 2018\week_7_folder\gemstore>npm start
+
+> gemstore@0.1.0 start C:\Users\kelle\Documents\Coding Temple Course 2018\week_7_folder\gemstore
+> react-scripts start
+? Something is already running on port 3000.
+
+Would you like to run the app on another port instead? Yes
+Starting the development server...
+
