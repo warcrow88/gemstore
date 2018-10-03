@@ -26,11 +26,36 @@ class App extends Component {
 
   // calculate total and return fixed number to two decimals
   calcTotal = () => {
-    let total = this.state.total;
-    total += 10;
+    let total = 0;
+    // loop through cart in state and add all prices
+    for (let i =0; i < this.state.cart.length; i++) {
+      total += this.state.cart[i].price;
+    }
+
+  // set new totla to state
+  this.setState({
+    total: total.toFixed(2)
+  })
+  }
+
+  // add item on button click
+  addItem = (id) => {
+    // get current cart
+    let items = this.state.cart
+
+    for (let i = 0; i < products.length; i++) {
+      if (products[i].id === id) {
+        // push to cart variable
+        items.push(products[i]);
+        break;
+      }
+    }
+    // set state to current cart
     this.setState({
-      total: total
+      cart: items
     });
+    console.log(this.state.cart);
+    this.calcTotal();
   }
 
   render() {
@@ -38,8 +63,7 @@ class App extends Component {
       <div className="App">
       <Navbar total={this.state.total} />
        <Switch>
-        <Route exact path='/' render={() => <Home calcTotal={this.calcTotal} products={this.state.products}/>}></Route>
-        <Route exact path='/index' render={() => <Home />}></Route>
+        <Route exact path='/' render={() => <Home addItem={this.addItem} products={this.state.products}  />}></Route>
         <Route exact path='/checkout' render={() => <Checkout />}></Route>
        </Switch>
       </div>
