@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import products from './static/data/products.js';
+import Navbar from './components/navbar/navbar.js';
 
 class App extends Component {
   constructor() {
@@ -24,7 +25,7 @@ class App extends Component {
     return (
       <div className="App">
 
-
+       <Navbar />
       </div>
     );
   }
