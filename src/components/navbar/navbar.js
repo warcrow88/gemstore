@@ -23,13 +23,13 @@ class Navbar extends Component {
                 </li>
 
                 <li className="nav-item">
-                  <NavLink className="nav-link disabled" to='/checkout'>Total: $0.00</NavLink>
+                  <NavLink className="nav-link disabled" to='/checkout'>Total: $ {this.props.total}</NavLink>
                 </li>
               </ul>
 
               <form className="form-inline my-2 my-lg-0">
                 <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
-                <button classNameName="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
               </form>
 
             </div>
