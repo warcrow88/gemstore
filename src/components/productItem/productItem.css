@@ -1,4 +1,8 @@
 .card {
+  margin-bottom: 50px;
+}
+
+.card-img-top {
   padding: 25px;
 }
 
@@ -19,8 +23,9 @@
   font-style: italic;
 }
 
-.card, .card-title, .card-subtitle {
+.card-title, .card-subtitle, .card-text {
   padding: 5px;
+  padding-left: 25px;
 }
 
 .btn-primary {
